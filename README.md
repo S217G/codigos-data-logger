@@ -34,8 +34,8 @@ Si solo deseas utilizar el programa de monitoreo en tu computador sin modificar 
 
 ## 📂 Estructura del Repositorio
 
-* `/arduino`: Contiene el firmware en C++ (`.ino` o `.cpp`) que debe ser subido al ESP32-C3.
-* `/python_app`: Contiene el código fuente `app_interfaz.py` desarrollado con `customtkinter` y `matplotlib`.
+* `/arduino`: Contiene el firmware en C++ (`.ino`) que debe ser subido al ESP32-C3.
+* `/python_app`: Contiene el código fuente `monitor_de_elasticidad` desarrollado con `customtkinter` y `matplotlib`.
 * `/docs`: Manuales de usuario, diagramas de conexión y recursos gráficos.
 
 ## ⚙️ Desarrollo y Compilación (Para desarrolladores)
