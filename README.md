@@ -24,4 +24,23 @@ El sistema está construido con los siguientes componentes físicos:
 
 Si solo deseas utilizar el programa de monitoreo en tu computador sin modificar el código fuente, sigue estos pasos:
 
-1. Ve a la sección **[Releases]
+1. Ve a la sección **[Releases]** a la derecha de esta página.
+2. Descarga el archivo `Monitor_de_Elasticidad.exe`.
+3. Conecta el ESP32 por USB a tu computador.
+4. Ejecuta el archivo `.exe` (no requiere instalación).
+5. Selecciona el puerto COM correspondiente y haz clic en **Conectar**.
+6. Ajusta el "Diámetro Efectivo" en la sección de calibración (ej: `1.910` cm) y presiona **Aplicar**.
+7. Selecciona una carpeta de destino y presiona **Iniciar Grabación** para generar tu archivo `.csv`.
+
+## 📂 Estructura del Repositorio
+
+* `/arduino`: Contiene el firmware en C++ (`.ino` o `.cpp`) que debe ser subido al ESP32-C3.
+* `/python_app`: Contiene el código fuente `app_interfaz.py` desarrollado con `customtkinter` y `matplotlib`.
+* `/docs`: Manuales de usuario, diagramas de conexión y recursos gráficos.
+
+## ⚙️ Desarrollo y Compilación (Para desarrolladores)
+
+Si deseas modificar la interfaz gráfica, asegúrate de tener Python 3.10+ instalado y ejecuta:
+
+```bash
+pip install customtkinter pyserial matplotlib
