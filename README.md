@@ -1,7 +1,7 @@
 # codigos-data-logger
 
 **Universidad del Bío-Bío | Laboratorio CIM**
-**Carrera:** Ingeniería Civil en Informática
+**Carrera:** Ingeniería de Ejecucio en Computacion e Informática
 
 Este repositorio contiene el código fuente (C++ y Python) y la documentación de un sistema de monitorización de resistencia de materiales. El sistema utiliza un microcontrolador ESP32 para leer la deformación de materiales sometidos a tensión mediante un encoder rotatorio y enviar los datos para su análisis.
 
